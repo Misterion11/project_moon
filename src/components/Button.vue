@@ -32,9 +32,9 @@
     showList.value = !showList.value;
   }
 
-  const getAudioPath = (option: string) => {
-    return `src/assets/audio/${option}.mp3`;
-  };
+  // const getAudioPath = (option: string) => {
+  //   return `src/assets/audio/${option}.mp3`;
+  // };
 
 </script>
 

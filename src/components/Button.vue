@@ -56,7 +56,7 @@
         :key="option">
         <span class="text-xl">{{ option }}</span>
         <div class="flex justify-center md:justify-start">
-          <audio :key="option" class="w-80 md:w-80 p-2 bg-gray-300 rounded" controls src="./src/assets/audio/Le papillon et la lune.mp3"></audio>
+          <audio :key="option" class="w-80 md:w-80 p-2 bg-gray-300 rounded" controls src="./src/assets/audio/prout.mp3"></audio>
         </div>
       </li>
     </ul>

@@ -33,7 +33,7 @@
   }
 
   const getAudioPath = (option: string) => {
-    return `../assets/audio/${option}.mp3`;
+    return `src/assets/audio/${option}.mp3`;
   };
 
 </script>
@@ -56,10 +56,11 @@
         :key="option">
         <span class="text-xl">{{ option }}</span>
         <div class="flex justify-center md:justify-start">
-          <audio :key="option" class="w-80 md:w-80 p-2 bg-gray-300 rounded" controls :src="getAudioPath(option)"></audio>
+          <audio :key="option" class="w-80 md:w-80 p-2 bg-gray-300 rounded" controls src="../assets/audio/Le papillon et la lune.mp3"></audio>
         </div>
       </li>
     </ul>
     </div>
+    <!-- :src="getAudioPath(option) -->
   </div>
 </template>

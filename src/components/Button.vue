@@ -33,7 +33,7 @@
   }
 
   const getAudioPath = (option: string) => {
-    return `src/assets/audio/${option}.mp3`;
+    return `/src/assets/audio/${option}.mp3`;
   };
 
 </script>
